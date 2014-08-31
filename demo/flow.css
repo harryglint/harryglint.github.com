@@ -1,0 +1,12 @@
+#win1 {
+    position: absolute;top: 50px;left: 30px;background-color: greenyellow;
+}
+#win2 {
+    position: absolute;top: 200px;left: 30px;background-color: burlywood;
+}
+#win2-1{
+	position: absolute;top: 200px;left: 180px;background-color: burlywood;
+}
+#win3 {
+    position: absolute;top: 350px;left: 30px;background-color: aquamarine;
+}
