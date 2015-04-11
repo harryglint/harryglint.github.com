@@ -74,6 +74,48 @@
   <header>
     
       <div class="icon"></div>
+      <a href="/2015/04/11/20150411-firefox-37-ssh-issue/">
+  <time datetime="2015-04-11T02:35:20.000Z">
+    Apr 11 2015
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title"><a href="/2015/04/11/20150411-firefox-37-ssh-issue/"></a></h1>
+  
+
+  </header>
+  <div class="entry">
+    
+      <p>title: 20150411-firefox-37-ssh-issue<br>date: 2015-04-11 10:35:20<br>tags:　</p>
+<ul>
+<li>ssh</li>
+<li>firefox</li>
+</ul>
+<hr>
+<h2 id="Firefox_37版">Firefox 37版</h2>
+<p>最近firefox連到某些https的網站時，會出現”連線未受信任”的訊息而無法瀏覽。上網google之後，發現firefox在37版的時候，tls1.0的網站會被歸入不信任名單中，才照成這問題。</p>
+<h2 id="解決方法">解決方法</h2>
+<p>把不能瀏覽網站的hostname，如www.google.com，加入about:config中的security.tls.insecure_fallback_hosts，就能正常訪問。</p>
+
+    
+  </div>
+  <footer class="end-sep">
+    
+      
+      
+    
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+  
+    <article class="post">
+  <header>
+    
+      <div class="icon"></div>
       <a href="/2014/11/01/recent-tech-project/">
   <time datetime="2014-11-01T11:52:24.000Z">
     Nov 1 2014
@@ -203,7 +245,7 @@
   </div>
   <footer id="footer"><div class="copyright">
   
-  &copy; 2014 <a href="/">Ponha</a>
+  &copy; 2015 <a href="/">Ponha</a>
   
 </div>
 <div class="theme-copyright">
